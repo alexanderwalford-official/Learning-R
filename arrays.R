@@ -5,3 +5,14 @@ fn_arrays <- function () {
 	return res # return the array
 }
 print(fn_arrays()) # print the array
+
+# let's not forget about lists!
+
+fn_lists <- () {
+	user <- list(name="Steve Jobs", age=67)
+	invoice <- list(id=324424, user="Steve Jobs", total=242)
+	combined_list <- list(user, invoice) # combine the lists
+	return combined_list;
+}
+
+print(fn_lists); # print the combined list
